@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:orientation="vertical"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/linearLayout1">
+    <TextView
+        p1:text="Login"
+        p1:textAppearance="?android:attr/textAppearanceMedium"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/textView1"
+        p1:layout_marginTop="50"
+        p1:textAlignment="center"
+        p1:layout_marginLeft="160" />
+    <EditText
+        p1:inputType="textEmailAddress"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/editText1"
+        p1:text="Username/Email"
+        p1:textAlignment="center"
+        p1:layout_marginTop="50"
+        p1:layout_marginLeft="50"
+        p1:layout_marginRight="50" />
+    <EditText
+        p1:inputType="textPassword"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/editText2"
+        p1:layout_marginTop="50"
+        p1:layout_marginLeft="50"
+        p1:layout_marginRight="50"
+        p1:text="Password" />
+    <TextView
+        p1:text="Don't have an account?"
+        p1:textAppearance="?android:attr/textAppearanceMedium"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/textView1"
+        p1:layout_marginTop="50"
+        p1:textAlignment="0"
+        p1:layout_marginLeft="95" />
+    <Button
+        p1:text="Sign up"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/button1"
+        p1:layout_marginTop="50"
+        p1:layout_marginLeft="50"
+        p1:layout_marginRight="50" />
+</LinearLayout>
